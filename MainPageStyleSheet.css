@@ -2,14 +2,17 @@
 
 
 }
-ul {
+
+/*Tab list to be horizontal*/
+#navTabs {
     float: left;
     width: 100%;
     padding: 0;
     margin :0;
     list-style-type: none;
 }
-a {
+
+a.tabs {
     float: left;
     width: 200px;
      text-decoration: none;
