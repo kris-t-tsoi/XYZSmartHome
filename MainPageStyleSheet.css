@@ -1,21 +1,18 @@
-﻿/*Main Title*/
-
-
-
-/*Bar under main title*/
+﻿/*Bar under main title*/
 /*naviation tables to be horizontal*/
 .navigationBar {
     display: block;
     width:100%;
     height:15%;
-    float:left;
+    float:left;    
+    border-bottom:double;
+    border-bottom-color:skyblue;
 }
 #mainList{
     width: 60%;
-
+    float:none;
 }
 ul#navTabs li {
-    padding: 0;
     list-style-type: none;
 }
 
@@ -28,7 +25,6 @@ a.tabs {
     color: white;
     background-color: skyblue;
     padding: 10px 10px;
-    align-self:center;
     border-right: 2px solid white;
 }
 a:hover {
