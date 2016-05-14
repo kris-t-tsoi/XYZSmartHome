@@ -28,6 +28,8 @@ a:hover {
 
 #userLoggedIn { 
     float:right;
+    text-align: center;
+    font-size: 20px;
 }
 
 .button{
