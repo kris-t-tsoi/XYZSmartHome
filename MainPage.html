@@ -3,11 +3,11 @@
 <head>
     <!--Browser Tab Name-->
     <title>XYZ SmartHome</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
     <!--Add style sheet-->
     <link type="text/css" rel="stylesheet" href="MainPageStyleSheet.css" />
-      
+
 </head>
 <body>
     <!--Main Title of Website-->
@@ -16,32 +16,48 @@
     </div>
 
     <!--Bar Under Title-->
-    <div>
+    <div class="navigationBar">
+        
         <!--Tabs Bar-->
-        <div>
+        <div id="mainList">
             <ul id="navTabs">
                 <li><a class="tabs" href="#">Floor Plan</a></li>
                 <li><a class="tabs" href="#">Global</a></li>
                 <li><a class="tabs" href="#">Account</a></li>
             </ul>
-
-            <!--User Logged In-->
-            <div id="userLoggedIn">
-               Logged In As: Kathleen Hobbs    
-
-                <!--Log out button-->
-                <button class="button" onclick="">
-                    <!--TODO make a not implemented pop up-->
-                    Log out
-                </button>
-
-            </div>
         </div>
-            
+        
 
+        <!--User Logged In-->
+        <div id="userLoggedIn">
+            Logged In As: Kathleen Hobbs
 
+            <!--Log out button-->
+            <button class="button" onclick="">
+                Log out
+                <!--TODO make a not implemented pop up-->
+            </button>
+
+        </div>
+    </div>
+    
+    <!--Floor Plan-->
+    <div id="floorPlan">
+        <!--Floor Tabs-->
+        <div>tabs</div>
+
+        <!--Floor Plan Image-->
+        <div>
+            tabssdfasf
+            <iframe>tabs 2</iframe>
+        </div>
 
     </div>
-   
+
+    <!--<script src="something.js"></script>-->
+
+
+    
+
 </body>
 </html>
