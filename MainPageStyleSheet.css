@@ -55,3 +55,13 @@ a:hover {
     background-color: dimgray;
     color:aliceblue;
 }
+
+#floorPlan {
+    position:relative;
+    float:left;
+    width: 100%;
+}
+
+#floorNameTabs{
+    list-style-type: none;
+}
