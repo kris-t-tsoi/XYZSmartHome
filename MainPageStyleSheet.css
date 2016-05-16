@@ -53,7 +53,8 @@ a:hover {
     color:aliceblue;
 }
 
-body { padding-bottom: 70px; }
+body { padding-bottom: 70px;
+}
 
 #floorPlan {
     position:relative;
