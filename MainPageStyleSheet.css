@@ -9,7 +9,7 @@
     border-bottom-color:skyblue;
 }
 #mainList{
-    width: 60%;
+    width: 50%;
     float:none;
 }
 ul#navTabs li {
@@ -19,7 +19,7 @@ ul#navTabs li {
 /*Navigation Tab class*/
 a.tabs {
     float: left;
-    width: 150px;
+    width: 180px;
     text-decoration: none;
     font-size:30px;
     color: white;
@@ -36,7 +36,7 @@ a:hover {
     float:right;
     text-align: center;
     font-size: 20px;
-    width:40%;
+    width:50%;
 }
 
 .button{
@@ -64,4 +64,8 @@ a:hover {
 
 #floorNameTabs{
     list-style-type: none;
+}
+
+#floor1Map{
+    float:left;
 }

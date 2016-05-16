@@ -7,9 +7,54 @@
 
     <!--Add style sheet-->
     <link type="text/css" rel="stylesheet" href="MainPageStyleSheet.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="jquery.min.js" />
+    <script type="text/javascript" src="jquery.maphilight.js"></script>
+    <script type="text/javascript" src="jquery.maphilight.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.floor1Map').maphilight({
+                fillColor: '0000ff'
+            });
+        });</script>
 
 </head>
 <body>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>XYZ SmartHome</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <ul id="navTabs">
+                <li><a class="tabs" href="#">Floor Plan</a></li>
+                <li><a class="tabs" href="#">Global</a></li>
+                <li><a class="tabs" href="#">Account</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4" id="userLoggedIn">
+            Logged In As: Kathleen Hobbs
+
+            <!--Log out button-->
+            <button class="button" onclick="">
+                Log out
+                <!--TODO make a not implemented pop up-->
+            </button>
+        </div>
+    </div>
+
+
+
+
     <!--Main Title of Website-->
     <div id="mainTitle">
         <h1>XYZ SmartHome</h1>
@@ -54,9 +99,9 @@
 
         <!--Floor Plan Image-->
         <div>
-            <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map" />
+            <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map"/>
             <map name="floor1Map" id="floor1Map">
-
+                <area alt="Dining Room" title="Dining Room" href="#" shape="rect" coords="0,0,167,176" style="outline:none" target="_self" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}' />
 
             </map>
         </div>
