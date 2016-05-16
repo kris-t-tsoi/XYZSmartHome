@@ -17,7 +17,7 @@
 
     <div class="row">
         <!--Side Menu-->
-        <div class="col-lg-2" style="border-right: 10px solid skyblue;">
+        <div class="col-lg-2">
             
             <!--Welcome Message-->
             <div class="row">
@@ -47,7 +47,7 @@
 
         </div>
         <!--Floor Plan-->
-        <div class="col-lg-10">
+        <div class="col-lg-10 mainArea">
 
             <!--Main Title of Website-->
             <div class="row">
@@ -55,34 +55,36 @@
                     <h1>XYZ SmartHome</h1>
                 </div>
             </div>
+            
+            <div class="row" style="margin-top:20px">
+                <ul class="nav nav-pills " style="font-size:30px; padding-left:5px">
+                    <li role="presentation" class="active"><a href="#">Floor 1</a></li>
+                    <li role="presentation"><a href="#">Floor 2</a></li>
+                </ul>
+            </div>
+               
+            <div class="row">
+                <!--Floor Plan-->
+                <div id="floorPlan">
 
-                      
-            <ul class="nav nav-pills " style="font-size:30px; padding-left:5px">
-                <li role="presentation" class="active"><a href="#">Floor 1</a></li>
-                <li role="presentation"><a href="#">Floor 2</a></li>
-            </ul>
+                    <!--Floor Plan Image-->
+                    <div style="padding-top:10px">
+                        <!--           <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map" />
+                   <map name="floor1Map" id="floor1Map">
+                       <area alt="Dining Room" title="Dining Room" href="#" shape="rect" coords="0,0,167,176" style="outline:none" target="_self" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}' />
 
-            <!--Floor Plan-->
-            <div id="floorPlan">
+                   </map>
+            -->
 
-                <!--Floor Plan Image-->
-                <div style="padding-top:10px">
-         <!--           <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map" />
-                    <map name="floor1Map" id="floor1Map">
-                        <area alt="Dining Room" title="Dining Room" href="#" shape="rect" coords="0,0,167,176" style="outline:none" target="_self" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}' />
-
-                    </map>
-             -->
-
-                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                         width="1299.000000pt" height="699.000000pt" viewBox="0 0 1299.000000 699.000000"
-                         preserveAspectRatio="xMidYMid meet">
-                        <metadata>
-                            Created by potrace 1.13, written by Peter Selinger 2001-2015
-                        </metadata>
-                        <g transform="translate(0.000000,699.000000) scale(0.100000,-0.100000)"
-                           fill="#000000" stroke="none">
-                            <path  d="M6487 6413 l-6007 -3 0 -1400 0 -1400 475 0 475 0 0 -1580 0 -1580
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                             width="1299.000000pt" height="699.000000pt" viewBox="0 0 1299.000000 699.000000"
+                             preserveAspectRatio="xMidYMid meet">
+                            <metadata>
+                                Created by potrace 1.13, written by Peter Selinger 2001-2015
+                            </metadata>
+                            <g transform="translate(0.000000,699.000000) scale(0.100000,-0.100000)"
+                               fill="#000000" stroke="none">
+                                <path d="M6487 6413 l-6007 -3 0 -1400 0 -1400 475 0 475 0 0 -1580 0 -1580
 2093 0 c1638 0 2096 -3 2105 -12 10 -10 17 -10 32 0 15 9 547 12 2440 12
 l2420 0 0 220 0 220 -25 0 -25 0 0 -195 0 -195 -2400 0 -2400 0 0 505 0 505
 -25 0 -25 0 0 -505 0 -505 -2070 0 -2070 0 0 1580 0 1580 -475 0 -475 0 0
@@ -95,18 +97,21 @@ l2420 0 0 220 0 220 -25 0 -25 0 0 -195 0 -195 -2400 0 -2400 0 0 505 0 505
 0 1345 645 0 645 0 0 -175 0 -175 25 0 25 0 0 200 0 200 -695 0 -695 0 0
 -1395 0 -1395 1750 0 1750 0 0 -250 0 -250 25 0 25 0 0 250 0 250 1005 0 1005
 0 -2 1952 c-3 1728 -5 1953 -18 1953 -8 0 -2718 -1 -6023 -2z" />
-                            <path d="M5620 3800 l0 -130 -1470 0 -1470 0 0 -25 0 -25 1470 0 1470 0 0
+                                <path d="M5620 3800 l0 -130 -1470 0 -1470 0 0 -25 0 -25 1470 0 1470 0 0
 -555 0 -555 25 0 25 0 0 710 0 710 -25 0 -25 0 0 -130z" />
-                        </g>
-                    </svg>
+                            </g>
+                        </svg>
+                    </div>
+
                 </div>
 
+                <!--<script src="something.js"></script>-->
+
+
             </div>
+               
 
-            <!--<script src="something.js"></script>-->
-
-
-        </div>
+            </div>
 
 
     </div>

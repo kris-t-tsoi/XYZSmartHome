@@ -59,6 +59,12 @@ a.tabs {
 body { padding-bottom: 70px;
 }
 
+.mainArea{
+    border-left:10px solid skyblue;
+    min-height:100%;
+    height:100%;
+}
+
 #floorPlan {
     position:relative;
     float:left;
