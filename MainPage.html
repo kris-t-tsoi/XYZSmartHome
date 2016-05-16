@@ -11,71 +11,104 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="jquery.min.js" />
-    <script type="text/javascript" src="jquery.maphilight.js"></script>
-    <script type="text/javascript" src="jquery.maphilight.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('.floor1Map').maphilight({
-                fillColor: '0000ff'
-            });
-        });</script>
 
 </head>
 <body>
-    <!--Main Title of Website-->
+
     <div class="row">
-        <div class="col-lg-12">
-            <h1>XYZ SmartHome</h1>
+        <div class="col-lg-2" style="border-right: 20px double blue;">
+
+
         </div>
-    </div>
 
+        <div class="col-lg-10">
 
-    <nav class="navbar navbar-default navbar-static-top">
-        <div class="container" style="margin-left:0px;margin-right:0px">
-            <div class="row" style="padding:10px 10px">
-                <!--Tabs Bar-->
-                <div class="col-lg-7" style="padding-right:0px">
-                    <ul id="navTabs">
-                        <li><a class="tabs" href="#">Floor Plan</a></li>
-                        <li><a class="tabs" href="#">Global</a></li>
-                        <li><a class="tabs" href="#">Account</a></li>
-                    </ul>
-                </div>
-                <!--User Logged In-->
-                <div class="col-lg-5" id="userLoggedIn" style="padding-left:0px;float:right">
-                    Logged In As: Kathleen Hobbs
-
-                    <!--Log out button-->
-                    <button class="button" onclick="">
-                        Log out
-                        <!--TODO make a not implemented pop up-->
-                    </button>
+            <!--Main Title of Website-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>XYZ SmartHome</h1>
                 </div>
             </div>
+
+
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container" style="margin-left:0px;margin-right:0px">
+                    <div class="row" style="padding:10px 10px">
+                        <!--Tabs Bar-->
+                        <div class="col-lg-7" style="padding-right:0px">
+                            <ul id="navTabs">
+                                <li><a class="tabs" href="#">Floor Plan</a></li>
+                                <li><a class="tabs" href="#">Global</a></li>
+                                <li><a class="tabs" href="#">Account</a></li>
+                            </ul>
+                        </div>
+                        <!--User Logged In-->
+                        <div class="col-lg-5" id="userLoggedIn" style="padding-left:0px;float:right">
+                            Logged In As: Kathleen Hobbs
+
+                            <!--Log out button-->
+                            <button class="button" onclick="">
+                                Log out
+                                <!--TODO make a not implemented pop up-->
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <ul class="nav nav-pills " style="font-size:30px; padding-left:5px">
+                <li role="presentation" class="active"><a href="#">Floor 1</a></li>
+                <li role="presentation"><a href="#">Floor 2</a></li>
+            </ul>
+
+            <!--Floor Plan-->
+            <div id="floorPlan">
+
+                <!--Floor Plan Image-->
+                <div style="padding-top:10px">
+         <!--           <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map" />
+                    <map name="floor1Map" id="floor1Map">
+                        <area alt="Dining Room" title="Dining Room" href="#" shape="rect" coords="0,0,167,176" style="outline:none" target="_self" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}' />
+
+                    </map>
+             -->
+
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                         width="1299.000000pt" height="699.000000pt" viewBox="0 0 1299.000000 699.000000"
+                         preserveAspectRatio="xMidYMid meet">
+                        <metadata>
+                            Created by potrace 1.13, written by Peter Selinger 2001-2015
+                        </metadata>
+                        <g transform="translate(0.000000,699.000000) scale(0.100000,-0.100000)"
+                           fill="#000000" stroke="none">
+                            <path  d="M6487 6413 l-6007 -3 0 -1400 0 -1400 475 0 475 0 0 -1580 0 -1580
+2093 0 c1638 0 2096 -3 2105 -12 10 -10 17 -10 32 0 15 9 547 12 2440 12
+l2420 0 0 220 0 220 -25 0 -25 0 0 -195 0 -195 -2400 0 -2400 0 0 505 0 505
+-25 0 -25 0 0 -505 0 -505 -2070 0 -2070 0 0 1580 0 1580 -475 0 -475 0 0
+1350 0 1350 1075 0 1075 0 0 -865 0 -865 25 0 25 0 0 865 0 865 1445 0 1445 0
+0 -715 0 -715 25 0 25 0 0 715 0 715 2035 0 2035 0 0 -260 0 -260 25 0 25 0 0
+260 0 260 1345 0 1345 0 0 -1900 0 -1900 -1345 0 -1345 0 0 1185 0 1185 -25 0
+-25 0 0 -545 0 -545 -105 0 -105 0 0 -25 0 -25 105 0 105 0 0 -615 0 -615
+-915 0 -915 0 0 615 0 615 410 0 410 0 0 25 0 25 -185 0 -185 0 0 115 0 115
+-25 0 -25 0 0 -115 0 -115 -225 0 -225 0 0 -640 0 -640 -420 0 -420 0 0 1345
+0 1345 645 0 645 0 0 -175 0 -175 25 0 25 0 0 200 0 200 -695 0 -695 0 0
+-1395 0 -1395 1750 0 1750 0 0 -250 0 -250 25 0 25 0 0 250 0 250 1005 0 1005
+0 -2 1952 c-3 1728 -5 1953 -18 1953 -8 0 -2718 -1 -6023 -2z" />
+                            <path d="M5620 3800 l0 -130 -1470 0 -1470 0 0 -25 0 -25 1470 0 1470 0 0
+-555 0 -555 25 0 25 0 0 710 0 710 -25 0 -25 0 0 -130z" />
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+
+            <!--<script src="something.js"></script>-->
+
+
         </div>
-    </nav>
 
-    <ul class="nav nav-tabs" style="font-size:30px; color: white; background-color: skyblue;">
-        <li role="presentation" class="active"><a href="#">Floor 1</a></li>
-        <li role="presentation"><a href="#">Floor 2</a></li>
-    </ul>
-
-    <!--Floor Plan-->
-    <div id="floorPlan">
-      
-        <!--Floor Plan Image-->
-        <div style="padding-top:10px">
-            <img id="floor1Map" src="FloorPlan.png" usemap="floor1Map"/>
-            <map name="floor1Map" id="floor1Map">
-                <area alt="Dining Room" title="Dining Room" href="#" shape="rect" coords="0,0,167,176" style="outline:none" target="_self" data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}' />
-
-            </map>
-        </div>
 
     </div>
-
-    <!--<script src="something.js"></script>-->
-
 
     
 

@@ -25,9 +25,12 @@ a.tabs {
     padding: 10px 10px;
     border-right: 2px solid white;
 }
-a:hover {
-    background-color: dimgray;
-    color:aliceblue;
+
+.nav-pills>li>a:hover {
+	background-color: #FF6699;
+}
+.nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
+	background-color: #FF6699;
 }
 
 #userLoggedIn { 
@@ -68,3 +71,4 @@ body { padding-bottom: 70px;
 #floor1Map{
     float:left;
 }
+
