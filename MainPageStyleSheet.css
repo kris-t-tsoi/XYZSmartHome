@@ -82,3 +82,8 @@ body { padding-bottom: 70px;
     position:relative;
     float:left;
 }
+
+.roomItems>img{
+    width: 200px;
+    height:150px;
+}
