@@ -1,5 +1,7 @@
-﻿.sidebar{
-   /* background-color:#337ab7;*/
+﻿/*Side bar items*/
+.sidebar{
+   background-color: #dcdcdc;
+   border-right:10px solid skyblue;
 }
 
 .userImages, .userImages>a {
@@ -24,18 +26,21 @@
     margin-bottom:5px;
     padding-bottom:5px;
     border-bottom: 5px groove  #337ab7;
-}
-
-.menuList {
-
+    font-size:20px;
 }
 
 .sidebarLogo{
     width:270px;
     height:90px ;
     margin-bottom: 30px;
+    margin-top:30px;
 }
 
+.menuList {
+    font-size: 20px;
+}
+
+/*Main area items*/
 .mainFrameLogo{
     width:300px;
     height:100px ;
@@ -52,7 +57,6 @@ body { padding-bottom: 70px;
 }
 
 .mainArea{
-    border-left:10px solid skyblue;
     min-height:100%;
     height:100%;
 }
