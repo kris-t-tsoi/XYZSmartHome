@@ -1,4 +1,10 @@
-﻿/*Side bar items*/
+﻿/*Applied to whole document*/
+body { 
+    padding-bottom: 70px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+/*Side bar items*/
 .sidebar{
    background-color: #dcdcdc;
    border-right:10px solid skyblue;
@@ -9,7 +15,13 @@
     top: 0;
     min-width: 280px;
 }
-
+/*Logo*/
+.sidebarLogo{
+    width:270px;
+    height:90px ;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
 .userImages, .userImages>a {
     font-size:35px;
     padding-right:15px;
@@ -37,13 +49,7 @@
     font-size:20px;
 }
 
-.sidebarLogo{
-    width:270px;
-    height:90px ;
-    margin-bottom: 30px;
-    margin-top:30px;
-}
-
+/*Menu items in side bar*/
 .menuList {
     font-size: 20px;
     margin-bottom:30px;
@@ -61,25 +67,15 @@
 }
 /*Main area items*/
 #pageTitle{
-    padding-top: 20px;
+   /*padding-top: 20px;*/
+    color:#337ab7;
+    padding-left:20px;
+    font-size:70px;
 }
-
+/*Logo*/
 .mainFrameLogo{
     width:300px;
     height:100px ;
-}
-
-.floorNavigation>li>a:hover {
-	background-color: #FF6699;
-}
-
-.floorNavigation{
-    border-radius:0;
-}
-
-body { 
-    padding-bottom: 70px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
 .mainArea{
