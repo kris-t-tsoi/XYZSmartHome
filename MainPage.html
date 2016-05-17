@@ -2,11 +2,12 @@
 <html>
 <head>
     <!--Browser Tab Name-->
-    <title>XYZ SmartHome</title>
+    <title>Floor1-XYZ SmartHome</title>
     <meta charset="utf-8" />
 
     <!--Add style sheet-->
-    <link type="text/css" rel="stylesheet" href="MainPageStyleSheet.css" />
+    <link type="text/css" rel="stylesheet" href="GeneralStyleSheet.css" />
+    <link type="text/css" rel="stylesheet" href="FloorStyleSheet.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -70,9 +71,9 @@
             <div class="row">
 
                 <!--Choose Floor-->
-                <nav class="navbar navbar-default floorNavigation">
+                <nav class="navbar navbar-default navigation">
                     <div class="container-fluid">   
-                            <ul class="nav nav-tabs "><!-- TODO Pill or tab ?-->
+                            <ul class="nav nav-pills">
                                 <li role="presentation" class="active"><a href="#">Floor 1</a></li>
                                 <li role="presentation"><a href="#">Floor 2</a></li>
                             </ul>
@@ -81,12 +82,12 @@
             </div>
 
             <!--Room Selection-->
-            <div class="row roomSelection">
+            <div class="row itemSelection">
 
                 <!--Left Hand List-->
                 <div class="col-lg-6">
                     <div class="container-fluid">
-                        <ul class="nav navbar.nav-stacked roomItems">
+                        <ul class="nav navbar.nav-stacked items">
                             <li><a href="#"><span><img src="Image/bathroom.jpg" /></span>Bathroom</a></li>
                             <li><a href="#"><span><img src="Image/foyer.jpg" /></span>Foyer</a></li>
                             <li><a href="#"><span><img src="Image/hallway.jpg" /></span>Hallway</a></li>
@@ -98,7 +99,7 @@
                 <!--Right Hand List-->
                 <div class="col-lg-6">
                     <div class="container-fluid">
-                        <ul class="nav navbar.nav-stacked roomItems">
+                        <ul class="nav navbar.nav-stacked  items">
                             <li><a href="#"><span><img src="Image/Dining-Room.jpg" /></span>Dining Room</a></li>
                             <li><a href="#"><span><img src="Image/garage.jpg" /></span>Garage</a></li>
                             <li><a href="#"><span><img src="Image/kitchen.jpg" /></span>Kitchen</a></li>

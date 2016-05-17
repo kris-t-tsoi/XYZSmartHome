@@ -89,29 +89,33 @@ body {
     height:100%;
 }
 
-.roomSelection {
+
+.itemSelection {
     padding-bottom:15px;
     margin-bottom:10px;
     padding-top:10px;
 }
 
-.floorNavigation.active{
-    color:#337ab7;
-}
 
-.roomItems>li>a{
+.items>li>a{
     font-size: 30px;
     font:bold;
 }
 
-.roomItems>li>a>span>img{
+.items>li>a>span>img{
     width: 200px;
     height:150px;
     padding-left: 10px;
     padding-right: 20px;
 }
 
-.floorNavigation{
+
+.navigation.active{
+    color:#337ab7;
+}
+
+
+.navigation{
     font-size:30px; 
     vertical-align:bottom;
 }

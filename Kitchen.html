@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Kitchen-XYZ SmartHome</title>
 	<meta charset="utf-8" />
 
     <!--Add style sheet-->
-    <link type="text/css" rel="stylesheet" href="MainPageStyleSheet.css" />
+    <link type="text/css" rel="stylesheet" href="GeneralStyleSheet.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -15,6 +15,96 @@
 </head>
 <body>
 
+    <!--Side Menu-->
+    <div class="col-lg-2 sidebar">
+
+        <div class="row">
+            <!--Logo-->
+            <div class="col-lg-12">
+                <img src="Image/Logo.png" class="img-responsive sidebarLogo" alt="XYZ SmartHome">
+            </div>
+        </div>
+
+        <!--User Section-->
+        <div class="row">
+            <div class="container-fluid">
+                <ul class="nav navbar.nav-stacked userDetails">
+                    <li class="userName"><span class="glyphicon glyphicon-user user"></span> Kathleen Hobbs</li>
+                    <li><a href="#"><span class="glyphicon glyphicon-cog userImages"></span> Account Settings</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in userImages"></span> Sign Out</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--Menu Items-->
+        <div class="row">
+            <div class="container-fluid">
+                <ul class="nav navbar.nav-stacked menuList">
+                    <li role="presentation"><a href="#">Activity Log</a></li>
+                    <li role="presentation" class="active"><a href="#">Floor Plan</a></li>
+                    <li role="presentation"><a href="#">Heating</a></li>
+                    <li role="presentation"><a href="#">Lighting</a></li>
+                    <li role="presentation"><a href="#">Locks</a></li>
+                    <li role="presentation"><a href="#">Video Recordings</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Main Section-->
+    <div class="col-lg-10 mainArea">
+
+        <div class="row mainAreaHeader">
+            <!--Page Name-->
+            <div class="col-lg-7">
+                <h1 id="pageTitle">Kitchen</h1>
+            </div>
+
+            <!--Logo-->
+            <div class="col-lg-5">
+                <img src="Image/Logo.png" class="img-responsive mainFrameLogo" alt="XYZ SmartHome">
+            </div>
+        </div>
+
+        <!--Kitchen Navigation-->
+        <div class="row">
+
+            <!--Choose Option-->
+            <nav class="navbar navbar-default navigation">
+                <div class="container-fluid">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="#">Appliances</a></li>
+                        <li role="presentation"><a href="#">Kitchen Lighting</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--Appliances Selection-->
+        <div class="row itemSelection">
+
+            <!--Left Hand List-->
+            <div class="col-lg-6">
+                <div class="container-fluid">
+                    <ul class="nav navbar.nav-stacked items">
+                        <li><a href="#"><span><img src="" /></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Right Hand List-->
+            <div class="col-lg-6">
+                <div class="container-fluid">
+                    <ul class="nav navbar.nav-stacked items">
+                        <li><a href="#"><span><img src="" /></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 
 
 </body>
