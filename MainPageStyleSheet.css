@@ -6,7 +6,7 @@ body {
 
 /*Side bar items*/
 .sidebar{
-   background-color: #dcdcdc;
+   background-color: #EBEAEE;
    border-right:10px solid skyblue;
     height: 100%;
     padding: 0;
@@ -14,6 +14,7 @@ body {
     left: 0;
     top: 0;
     min-width: 280px;
+    font-weight:700;
 }
 /*Logo*/
 .sidebarLogo{
@@ -43,8 +44,7 @@ body {
 }
 
 .userDetails{
-    margin-bottom:5px;
-    padding-bottom:5px;
+    padding-bottom:10px;
     border-bottom: 5px groove  #337ab7;
     font-size:20px;
 }
@@ -52,8 +52,8 @@ body {
 /*Menu items in side bar*/
 .menuList {
     font-size: 20px;
-    margin-bottom:30px;
-    padding-bottom:5px;
+    padding-bottom:10px;
+    padding-top:10px;
     border-bottom: 5px groove  #337ab7;
 }
 
@@ -88,9 +88,10 @@ body {
     height:100%;
 }
 
-#floorPlan {
-    position:relative;
-    float:left;
+.roomSelection {
+    padding-bottom:15px;
+    margin-bottom:10px;
+    padding-top:10px;
 }
 
 .roomItems>li>a{
