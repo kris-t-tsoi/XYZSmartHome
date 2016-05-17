@@ -87,9 +87,16 @@ body { padding-bottom: 70px;
     float:left;
 }
 
+.roomItems>li>a{
+    font-size: 30px;
+    font:bold;
+}
+
 .roomItems>li>a>span>img{
     width: 200px;
     height:150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .floorNavigation{
