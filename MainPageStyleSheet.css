@@ -2,6 +2,16 @@
    /* background-color:#337ab7;*/
 }
 
+.userImages, .userImages>a {
+    font-size:35px;
+    padding-right:15px;
+    text-align:center;
+}
+
+.menuList {
+
+}
+
 /*Bar under main title*/
 /*naviation tables to be horizontal*/
 .navigationBar {
