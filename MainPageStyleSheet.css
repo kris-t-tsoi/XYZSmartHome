@@ -2,8 +2,12 @@
 .sidebar{
    background-color: #dcdcdc;
    border-right:10px solid skyblue;
-   position:absolute;
-   height:auto;
+    height: 100%;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 280px;
 }
 
 .userImages, .userImages>a {
