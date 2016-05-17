@@ -1,4 +1,8 @@
-﻿/*Bar under main title*/
+﻿.sidebar{
+   /* background-color:#337ab7;*/
+}
+
+/*Bar under main title*/
 /*naviation tables to be horizontal*/
 .navigationBar {
     display: block;
@@ -45,6 +49,7 @@ a.tabs {
     color: white;
     padding: 10px 10px;
     text-align: center;
+    align-self:center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
