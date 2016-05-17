@@ -12,32 +12,10 @@
 
 }
 
-/*Bar under main title*/
-/*naviation tables to be horizontal*/
-.navigationBar {
-    display: block;
-    height:15%;
-    float:left;    
-    border-bottom:double;
-    border-bottom-color:skyblue;
-}
-#mainList{
-    float:none;
-}
-ul#navTabs li {
-    list-style-type: none;
-}
+.mainFrameLogo{
+    width:300px;
+    height:100px ;
 
-/*Navigation Tab class*/
-a.tabs {
-    float: left;
-    width: 180px;
-    text-decoration: none;
-    font-size:30px;
-    color: white;
-    background-color: skyblue;
-    padding: 10px 10px;
-    border-right: 2px solid white;
 }
 
 .nav-pills>li>a:hover {
@@ -45,30 +23,6 @@ a.tabs {
 }
 .nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
 	background-color: #FF6699;
-}
-
-#userLoggedIn { 
-    float:right;
-    text-align: center;
-    font-size: 20px;
-}
-
-.button{
-    background-color: slategray;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    align-self:center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
-}
-.button:hover{
-    background-color: dimgray;
-    color:aliceblue;
 }
 
 body { padding-bottom: 70px;
@@ -85,9 +39,6 @@ body { padding-bottom: 70px;
     float:left;
 }
 
-#floorNameTabs{
-    list-style-type: none;
-}
 
 #floor1Map{
     float:left;
