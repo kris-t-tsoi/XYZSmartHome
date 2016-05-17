@@ -21,11 +21,13 @@
     padding-right:15px;
     margin-left: 15px;
     text-align:center;
-    color: #337ab7;
+    color: white;
 }
 
 .userName{    
-    color: #337ab7;
+    color: white;
+    background-color:#337ab7;
+    padding: 7px 5px;
 }
 
 .userDetails{
