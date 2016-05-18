@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="Functions.js"></script>
     <link type="text/css" rel="stylesheet" href="jquery.min.js" />
 
 </head>
@@ -30,23 +31,22 @@
             <div class="container-fluid">
                 <ul class="nav navbar.nav-stacked userDetails">
                     <li class="userName"><span class="glyphicon glyphicon-user user"></span> Kathleen Hobbs</li>
-                    <li><a href="#"><span class="glyphicon glyphicon-cog userImages"></span> Account Settings</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-out userImages"></span> Sign Out</a></li>
+                    <li><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-cog userImages"></span> Account Settings</a></li>
+                    <li><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-log-out userImages"></span> Sign Out</a></li>
                 </ul>
             </div>
         </div>
-
 
         <!--Menu Items-->
         <div class="row">
             <div class="container-fluid">
                 <ul class="nav navbar.nav-stacked menuList">
-                    <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-home menuImages"></span>Home</a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-facetime-video menuImages"></span>Camera Recording</a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-fire menuImages"></span>Heating</a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-lamp menuImages"></span>Lighting</a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-flag menuImages"></span>Notification Log</a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-lock menuImages"></span>Security</a></li>
+                    <li role="presentation" class="active"><a ondblclick="" onclick="" href="#"><span class="glyphicon glyphicon-home menuImages"></span>Home</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-facetime-video menuImages"></span>Camera Recording</a></li>
+                    <li role="presentation"><a href="#"  onclick="isImplemented(this)"><span class="glyphicon glyphicon-fire menuImages"></span>Heating</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-lamp menuImages"></span>Lighting</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-flag menuImages"></span>Notification Log</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-lock menuImages"></span>Security</a></li>
                 </ul>
             </div>
         </div><!--doors windows lights security camera notification log-->
@@ -75,7 +75,7 @@
                     <div class="container-fluid">   
                             <ul class="nav nav-pills">
                                 <li role="presentation" class="active"><a href="#">Floor 1</a></li>
-                                <li role="presentation"><a href="#">Floor 2</a></li>
+                                <li role="presentation"><a href="#" onclick="isImplemented(this)">Floor 2</a></li>
                             </ul>
                     </div>
                 </nav>
@@ -88,10 +88,10 @@
                 <div class="col-lg-6">
                     <div class="container-fluid">
                         <ul class="nav navbar.nav-stacked items">
-                            <li><a href="#"><span><img src="Image/bathroom.jpg" /></span>Bathroom</a></li>
-                            <li><a href="#"><span><img src="Image/foyer.jpg" /></span>Foyer</a></li>
-                            <li><a href="#"><span><img src="Image/hallway.jpg" /></span>Hallway</a></li>
-                            <li><a href="#"><span><img src="Image/laundry-room.jpg" /></span>Laundry</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/bathroom.jpg" /></span>Bathroom</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/foyer.jpg" /></span>Foyer</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/hallway.jpg" /></span>Hallway</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/laundry-room.jpg" /></span>Laundry</a></li>
                         </ul>
                     </div>
                 </div>
@@ -100,10 +100,10 @@
                 <div class="col-lg-6">
                     <div class="container-fluid">
                         <ul class="nav navbar.nav-stacked  items">
-                            <li><a href="#"><span><img src="Image/Dining-Room.jpg" /></span>Dining Room</a></li>
-                            <li><a href="#"><span><img src="Image/garage.jpg" /></span>Garage</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/Dining-Room.jpg" /></span>Dining Room</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/garage.jpg" /></span>Garage</a></li>
                             <li><a href="Kitchen.html"><span><img src="Image/kitchen.jpg" /></span>Kitchen</a></li>
-                            <li><a href="#"><span><img src="Image/living room.jpg" /></span>Living Room</a></li>
+                            <li><a href="#" onclick="isImplemented(this)"><span><img src="Image/living room.jpg" /></span>Living Room</a></li>
                         </ul>
                     </div>
                 </div>
