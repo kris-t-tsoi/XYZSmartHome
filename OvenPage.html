@@ -82,18 +82,24 @@
             </div>
 
             <div class="col-lg-7">
-                <input id="onOffSwitch" type="checkbox" checked data-toggle="toggle " data-target="$ovenSettings" onchange="powerOnOff() ">                
+
+                <input type="checkbox" data-toggle="collapse" data-target="#ovenSettings">
+
+                <div class="btn-group " >
+
+                    <button class="btn btn-default" data-toggle="collapse" data-target="#ovenSettings">ON</button>
+                    <button class="btn btn-primary active" data-toggle="collapse" data-target="#ovenSettings">OFF</button>
+                </div>
             </div>
 
         </div>
 
 
         <div class="row">
-            <div class="row ">
-                <div class="col-lg-2 panel-collapse ovenSettings">
-                    slkdfj;lskfjlsafdj
-
-                </div>
+                <div class="col-lg-2 collapse" id="ovenSettings">
+                        <h4>Collapse (Show/Hide)</h4>
+                        Hello world. Here I am.
+                    </div>
                 </div>
 
         </div>

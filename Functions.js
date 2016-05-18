@@ -4,10 +4,3 @@ function isImplemented(obj) {
         alert("Not Yet Implemented");
     }
 }
-
-
-function powerOnOff() {
-    $('#onOffSwitch').change(function () {
-        $('$ovenSettings').hide();
-    })
-}
