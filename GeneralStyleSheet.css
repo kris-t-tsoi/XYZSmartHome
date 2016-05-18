@@ -139,3 +139,8 @@ body {
     vertical-align:bottom;
     color:#337ab7;
 }
+
+#onOffSwitch{
+    width: 70px;
+    height:40px;
+}

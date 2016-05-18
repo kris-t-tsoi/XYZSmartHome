@@ -3,5 +3,11 @@ function isImplemented(obj) {
     if (obj.getAttribute("href") == "#") {
         alert("Not Yet Implemented");
     }
+}
 
+
+function powerOnOff() {
+    $('#onOffSwitch').change(function () {
+        $('$ovenSettings').hide();
+    })
 }
