@@ -10,10 +10,89 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="Functions.js"></script>
-
     <link type="text/css" rel="stylesheet" href="jquery.min.js" />
+
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
 </head>
 <body>
+    <!--Side Menu-->
+    <div class="col-lg-2 sidebar">
+
+        <div class="row">
+            <!--Logo-->
+            <div class="col-lg-12">
+                <img src="Image/Logo.png" class="img-responsive sidebarLogo" alt="XYZ SmartHome">
+            </div>
+        </div>
+
+        <!--User Section-->
+        <div class="row">
+            <div class="container-fluid">
+                <ul class="nav navbar.nav-stacked userDetails">
+                    <li class="userName"><span class="glyphicon glyphicon-user user"></span> Kathleen Hobbs</li>
+                    <li><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-cog userImages"></span> Account Settings</a></li>
+                    <li><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-log-out userImages"></span> Sign Out</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--Menu Items-->
+        <div class="row">
+            <div class="container-fluid">
+                <ul class="nav navbar.nav-stacked menuList">
+                    <li role="presentation"><a href="MainPage.html"><span class="glyphicon glyphicon-home menuImages"></span>Home</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-facetime-video menuImages"></span>Camera Recording</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-fire menuImages"></span>Heating</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-lamp menuImages"></span>Lighting</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-flag menuImages"></span>Notification Log</a></li>
+                    <li role="presentation"><a href="#" onclick="isImplemented(this)"><span class="glyphicon glyphicon-lock menuImages"></span>Security</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Main Section-->
+    <div class="col-lg-10 mainArea">
+
+        <div class="row mainAreaHeader">
+            <!--Page Name-->
+            <div class="col-lg-7">
+                <h1 id="pageTitle">Oven</h1>
+            </div>
+
+            <!--Logo-->
+            <div class="col-lg-5">
+                <img src="Image/Logo.png" class="img-responsive mainFrameLogo" alt="XYZ SmartHome">
+            </div>
+        </div>
+
+        <!--Power On off-->
+        <div class="row menuList ovenHeadBar">
+            <div class="col-lg-2">
+                <a href="Kitchen.html"><span class="glyphicon glyphicon-chevron-left menuImages"></span>Back</a>
+               
+            </div>
+
+            <div class="col-lg-2 ">
+                <b><span class="glyphicon glyphicon-off "></span> Power</b>
+            </div>
+
+            <div class="col-lg-7">
+                <input id="onOffSwitch" type="checkbox" checked data-toggle="toggle">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+   
 
 </body>
 </html>

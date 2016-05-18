@@ -3,6 +3,7 @@ body {
     padding-bottom: 70px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;    
     font-weight:700;
+    color:#337ab7;
 }
 
 /*Side bar items*/
@@ -129,4 +130,12 @@ body {
 
 .rooms{
     padding-left:15px;
+}
+
+.ovenHeadBar{
+    margin-top:10px;
+    padding-top:10px;
+    font-size:35px; 
+    vertical-align:bottom;
+    color:#337ab7;
 }
