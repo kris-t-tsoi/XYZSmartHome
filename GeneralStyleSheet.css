@@ -62,9 +62,16 @@ body {
     background-color: #337ab7;
     color:white;
     pointer-events: none;
-    cursor: default;
-    
+    cursor: default;    
 }
+
+.menuImages{
+    font-size:30px;
+    padding-right:15px;
+    text-align:center;
+}
+
+
 /*Main area items*/
 .mainAreaHeader{
     padding-bottom:10px;
