@@ -147,6 +147,7 @@ body {
 }
 
 #ovenSettings{
+    margin-top:10px;
     margin-left:30px;
     color:#337ab7;
     font-size:55px;    
@@ -160,4 +161,8 @@ body {
 
 .dropdown-toggle{
     padding-left:10px;
+}
+
+.ovenRow{
+    margin-bottom:20px;
 }
