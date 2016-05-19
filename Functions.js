@@ -14,8 +14,8 @@ function modeSelect(obj, sel) {
 
 
 function pickTime(obj) {
-    alert("in");
-    $(obj).datetimepicker({
+    //alert($(obj).attr('id'));
+    $($(obj).attr('id')).datetimepicker({
         format: 'LT'
     });
 }
