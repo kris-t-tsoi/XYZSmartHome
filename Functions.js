@@ -5,7 +5,9 @@ function isImplemented(obj) {
     }
 }
 
+//change text in drop down box into selected option
 function modeSelect(obj, sel) {
     $(obj).text($(sel).text());
-    $(obj).text().append('<span class="caret"></span>');
+    //append a drop down arrow
+    $(obj).append('<span class="caret"></span>');
 }
