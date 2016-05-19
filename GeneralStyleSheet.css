@@ -82,7 +82,6 @@ body {
 }
 
 #pageTitle{
-   /*padding-top: 20px;*/
     color:#337ab7;
     padding-left:20px;
     font-size:70px;    
@@ -145,4 +144,20 @@ body {
 #onOffSwitch{
     width: 70px;
     height:40px;
+}
+
+#ovenSettings{
+    margin-left:30px;
+    color:#337ab7;
+    font-size:55px;    
+    font-weight:700;
+
+}
+
+.valueBox{
+    font-size:50px;
+}
+
+.dropdown-toggle{
+    padding-left:10px;
 }
