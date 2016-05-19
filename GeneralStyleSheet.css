@@ -180,7 +180,7 @@ body {
 
 #unitSel, #modeSel{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #f8f8f8;
     border: 2px solid skyblue;
     border-radius:0px;
@@ -189,8 +189,13 @@ body {
 #ovenSubmit {
     font-size: 30px;
     color:white;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #337ab7;
     border: 2px solid skyblue;
     border-radius:0px;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #337ab7 !important;
+    color:white !important;
 }
