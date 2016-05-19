@@ -11,3 +11,11 @@ function modeSelect(obj, sel) {
     //append a drop down arrow
     $(obj).append('<span class="caret"></span>');
 }
+
+
+function pickTime(obj) {
+    alert("in");
+    $(obj).datetimepicker({
+        format: 'LT'
+    });
+}
