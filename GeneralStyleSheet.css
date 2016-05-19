@@ -157,6 +157,7 @@ body {
 
 .valueBox{
     font-size:50px;
+    border: 2px solid skyblue;
 }
 
 .dropdown-toggle{
@@ -165,4 +166,31 @@ body {
 
 .ovenRow{
     margin-bottom:20px;
+}
+
+.dropdown-item {
+    font-size: 30px;
+    background-color: #f8f8f8;
+}
+
+.dropdown-menu>li {  
+    color: #337ab7;
+    font-weight:200;  
+}
+
+#unitSel, #modeSel{
+    font-size: 30px;
+    font-weight: 300;
+    background-color: #f8f8f8;
+    border: 2px solid skyblue;
+    border-radius:0px;
+}
+
+#ovenSubmit {
+    font-size: 30px;
+    color:white;
+    font-weight: 300;
+    background-color: #337ab7;
+    border: 2px solid skyblue;
+    border-radius:0px;
 }
