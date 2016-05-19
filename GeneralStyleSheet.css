@@ -1,4 +1,6 @@
-﻿/*Applied to whole document*/
+﻿@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+
+/*Applied to whole document*/
 body { 
     padding-bottom: 70px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;    

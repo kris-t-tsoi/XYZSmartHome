@@ -4,3 +4,13 @@ function isImplemented(obj) {
         alert("Not Yet Implemented");
     }
 }
+/*
+function modeSelect(obj, sel) {
+    alert("butn: "+ '#obj' +"   "+'$(sel).text()');
+    ('#obj').val($(sel).text());
+}*/
+
+$('#demolist li').on('click', function () {
+    alert("in");
+    $('#modeSel').val($(this).text());
+});

@@ -99,8 +99,48 @@
 
         <div class="row">
                 <div class="col-lg-2 collapse" id="ovenSettings">
-                        <h4>Collapse (Show/Hide)</h4>
-                        Hello world. Here I am.
+                    <!--temp, mode, timer, start time-->
+                    <div class="row">
+                        Temperature
+
+                        
+
+                    </div>
+
+                    <div class="row">
+                        Mode:
+
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mode">
+                               Select Mode
+                                <span class="caret"></span>
+                            </button>
+                                <ul id="demolist" class="dropdown-menu">
+                                    <li><a class="dropdown-item" onclick="modeSelect(mode, this)">Bake</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Bottom Element Only</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Defrost</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Fan Bake</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Fan Grill</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Grill</a></li>
+                                    <li><a class="dropdown-item" onclick="modeSelect()">Top Element Only</a></li>
+                                </ul>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="row">
+                        Timer:
+                    </div>
+
+
+
+                    <div class="row"></div>
+
+
+                    <div class="row">
+                        Start Time:
                     </div>
                 </div>
 
