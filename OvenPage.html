@@ -98,15 +98,32 @@
 
 
         <div class="row">
-                <div class="col-lg-2 collapse" id="ovenSettings">
-                    <!--temp, mode, timer, start time-->
-                    <div class="row">
-                        Temperature
+            <div class="col-lg-1"></div>
 
-                        
+                <div class="col-lg-2 collapse" id="ovenSettings">
+
+
+                    <div class="row">
+                        Temperature:
+
+                        <!--Temperature Value-->
+
+                        <!--Unit Choice-->
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="modeSel">
+                                Unit
+                                <!--Add in drop down arrow-->
+                                <span class="caret"></span>
+                            </button>
+                            <ul id="demolist" class="dropdown-menu">
+                                <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Celsius</a></li>
+                                <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fahrenheit</a></li>
+                            </ul>
+                        </div>
 
                     </div>
 
+                    <!--Oven Mode-->
                     <div class="row">
                         Mode:
 
