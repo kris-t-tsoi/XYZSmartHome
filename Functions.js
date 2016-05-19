@@ -4,13 +4,8 @@ function isImplemented(obj) {
         alert("Not Yet Implemented");
     }
 }
-/*
-function modeSelect(obj, sel) {
-    alert("butn: "+ '#obj' +"   "+'$(sel).text()');
-    ('#obj').val($(sel).text());
-}*/
 
-$('#demolist li').on('click', function () {
-    alert("in");
-    $('#modeSel').val($(this).text());
-});
+function modeSelect(obj, sel) {
+    $(obj).text($(sel).text());
+    $(obj).text().append('<span class="caret"></span>');
+}
