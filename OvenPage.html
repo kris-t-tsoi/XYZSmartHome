@@ -70,12 +70,12 @@
             </div>
         </div>
 
-       
+
         <!--Power On off-->
         <div class="row menuList ovenHeadBar">
             <div class="col-lg-2">
                 <a href="Kitchen.html"><span class="glyphicon glyphicon-chevron-left menuImages"></span>Back</a>
-               
+
             </div>
 
             <div class="col-lg-2 ">
@@ -100,71 +100,58 @@
         <div class="row">
             <div class="col-lg-1"></div>
 
-                <div class="col-lg-2 collapse" id="ovenSettings">
+            <div class="col-lg-11 collapse" id="ovenSettings">
 
 
-                    <div class="row">
-                        Temperature:
+                <div class="row">
+                    Temperature:
 
-                        <!--Temperature Value-->
+                    <!--Temperature Value-->
+                    <input type="text" class="valueBox" id="temp"/>
 
-                        <!--Unit Choice-->
-                        <div class="btn-group">
-                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="modeSel">
-                                Unit
-                                <!--Add in drop down arrow-->
-                                <span class="caret"></span>
-                            </button>
-                            <ul id="demolist" class="dropdown-menu">
-                                <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Celsius</a></li>
-                                <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fahrenheit</a></li>
-                            </ul>
-                        </div>
 
+                    <!--Unit Choice-->
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="modeSel">
+                            Unit
+                            <!--Add in drop down arrow-->
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="demolist" class="dropdown-menu">
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Celsius</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fahrenheit</a></li>
+                        </ul>
                     </div>
-
-                    <!--Oven Mode-->
-                    <div class="row">
-                        Mode:
-
-                        <div class="btn-group">
-                            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="modeSel">
-                                Select Mode
-                                <!--Add in drop down arrow-->
-                                <span class="caret"></span>
-                            </button>
-                                <ul id="demolist" class="dropdown-menu">
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Bake</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Bottom Element Only</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Defrost</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fan Bake</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fan Grill</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Grill</a></li>
-                                    <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Top Element Only</a></li>
-                                </ul>
-                        </div>
-
-
-                    </div>
-
-
-                    <div class="row">
-                        Cooking Length:
-                    </div>
-
-
                 </div>
 
+                <!--Oven Mode-->
+                <div class="row">
+                    Mode:
+
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="modeSel">
+                            Select Mode
+                            <!--Add in drop down arrow-->
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="demolist" class="dropdown-menu">
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Bake</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Bottom Element Only</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Defrost</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fan Bake</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Fan Grill</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Grill</a></li>
+                            <li><a class="dropdown-item" onclick="modeSelect(modeSel, this)">Top Element Only</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Cooking Time-->
+                <div class="row">
+                    Cooking Length:
+                </div>
+            </div>
         </div>
-
-
-        
-
     </div>
-
-
-
-   
-
 </body>
 </html>
