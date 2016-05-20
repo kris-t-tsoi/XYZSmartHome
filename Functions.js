@@ -19,3 +19,7 @@ function pickTime(obj) {
         format: 'LT'
     });
 }
+
+function ovenConfirm() {
+        alert("Oven is now cooking");
+}
