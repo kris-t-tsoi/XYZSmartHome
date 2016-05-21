@@ -12,14 +12,7 @@ function modeSelect(obj, sel) {
     $(obj).append('<span class="caret"></span>');
 }
 
-
-function pickTime(obj) {
-    //alert($(obj).attr('id'));
-    $($(obj).attr('id')).datetimepicker({
-        format: 'LT'
-    });
-}
-
+//Confirm that oven has started 
 function ovenConfirm() {
         alert("Oven is now cooking");
 }
